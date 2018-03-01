@@ -1,0 +1,76 @@
+#Basic nice stuff to have
+media_library_primary_tag = album_artist
+
+startup_screen = playlist 
+
+mouse_list_scroll_whole_page = no 
+
+lines_scrolled = 1
+
+jump_to_now_playing_song_at_start = yes
+
+space_add_mode = add_remove
+
+ignore_leading_the = yes
+
+ignore_diacritics = yes
+
+follow_now_playing_lyrics = yes
+
+centered_cursor = yes
+
+message_delay_time = 2
+#display modes
+
+search_engine_display_mode = "columns"
+playlist_display_mode = "columns"  
+browser_display_mode = "columns"
+user_interface = "alternative"
+
+#visualizer
+visualizer_type = spectrum
+visualizer_in_stereo = no
+visualizer_look = ▋▋
+
+
+#display thing at the top that tells you where you are
+header_visibility = "no"
+
+#alternate header format
+alternative_header_first_line_format = "$4{%t}|{%f} $8• $(12){%A}"
+
+alternative_header_second_line_format = "$3{%b} $8• $7{%y}"
+
+#display info about what's going on (ie "playing: sonig")
+statusbar_visibility = "yes" 
+#format to use for statusbar when displaying song
+song_status_format = "{%a - }{%t - }{%b}"
+#display column titles
+titles_visibility = no 
+
+#progress bar
+progressbar_look = "▃▃▃"
+progressbar_color = "1"
+progressbar_elapsed_color = "4"
+
+#playlist view format
+#currently it's Track number | Track title | Artist | Album | Track length
+song_columns_list_format = "(3f)[8]{n} (35)[4]{t} (30)[12]{a} (30)[3]{b} (5f)[7]{lr}"
+
+
+#media library view format
+song_library_format = {$8%n - }{$4%t}|{%f}
+
+#identify what's playing
+now_playing_prefix = " {$b$(10)▶$/b}  "
+
+
+#selected item prefix and suffix
+current_item_prefix = "$b>>> "
+
+current_item_suffix= " <<<$/b"
+
+#unselected item prefix and suffix (ie the inactive columns in media library)
+current_item_inactive_column_prefix = ">>> "
+
+current_item_inactive_column_suffix = " <<<"

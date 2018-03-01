@@ -1,0 +1,30 @@
+* {
+	background-color: #121017;
+	text-color: #dfdacb;
+	border-color: #8F7058;
+	font: "Terminus (TTF) 12";
+	lines: 10;
+}
+
+window {
+	width: 10%;
+	border: 1;
+	padding: 2;
+}
+
+inputbar {
+     children: [entry, case-indicator ];
+}
+
+listview {
+	scrollbar: false;
+}
+
+element.normal {
+	text-color: #dfdacb;
+}
+
+element.selected {
+	text-color: #998D6F;
+}
+
